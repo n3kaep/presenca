@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "presenca",
+  "version": "${version}",
+  "name": "A Presença",
+  "description": "Mod de terror multiplayer: sanidade, o Stalker e eventos sobrenaturais.",
+  "authors": ["Você"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.presenca.Presenca"],
+    "client": ["com.presenca.client.PresencaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
